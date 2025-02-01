@@ -59,9 +59,7 @@ A pipeline was developed to:
 ## Usage Instructions
 1. Clone the repository and install dependencies:
    ```sh
-   git clone <repository-url>
-   cd malware-detection
-   pip install -r requirements.txt
+   git clone https://github.com/Aditya-Codes-247/Neural_Nomads_MINED_Repository
    ```
 2. Open the Jupyter Notebook:
    ```sh
@@ -77,3 +75,7 @@ A pipeline was developed to:
 
 ## Authors
 - **Neural Nomads Team**
+- **Mohit Ginglani**
+- **Aditya Pandey**
+- **Satvik Gaikwad**
+- **Vedant Kumar**
