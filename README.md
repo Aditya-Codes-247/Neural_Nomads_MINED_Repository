@@ -5,7 +5,7 @@ This project aims to detect malware using various machine learning models, inclu
 
 ## Dataset Details
 - **Training Data**: 22,017 samples, 28,696 features
-- **Test Data**: 1,480 samples, 22,690 features
+- **Test Data**: 1,480 samples, 28,690 features
 - **Features**:
   - SHA256 (Unique Identifier)
   - Type (Malware/Benign Classification)
@@ -42,6 +42,7 @@ The **MLP Classifier** was selected as the best-performing model due to:
 - High accuracy and F1-score
 - Ability to handle nonlinear relationships
 - Robust generalization to unseen data
+- It was chosen over its competitor (ConvLSTM) as MLP outperforms computationally expensive deep learning models like ConvLSTM and is more efficient for malware classification, offering a robust solution while maintaining accuracy.
 
 ### Architecture of MLP Classifier
 - **Hidden Layers**: 50 neurons (first layer), 25 neurons (second layer)
