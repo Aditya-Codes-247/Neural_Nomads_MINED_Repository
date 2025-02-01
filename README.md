@@ -29,7 +29,6 @@ The following models were trained to evaluate performance:
   - Random Forest
   - XGBoost
   - Support Vector Machine (SVM)
-  - Gradient Boosting Classifier
   
 - **Deep Learning Models**
   - Multi-Layer Perceptron (MLP) Classifier
